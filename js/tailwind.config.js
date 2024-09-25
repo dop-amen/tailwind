@@ -1,6 +1,11 @@
 tailwind.config = {
     theme: {
       extend: {
+          // background image start
+          backgroundImage: {
+            'banner': "url('../images/bannerbg.jpg')",
+          },
+          // background image end
         colors: {
           'navbarbg': 'rgba(22, 12, 109, 0.5)',
           'hColor': '#1BBF00',
@@ -15,9 +20,7 @@ tailwind.config = {
           transitionDuration: {
             '200': '200ms',
           },
-          backgroundImage: {
-            'banner': "url('../images/bannerbg.jpg')",
-          },
+          
           fontFamily: {
             'open': ["Open Sans"],
             
