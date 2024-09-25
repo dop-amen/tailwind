@@ -3,7 +3,7 @@ tailwind.config = {
       extend: {
           // background image start
           backgroundImage: {
-            'banner': "url('../images/bannerbg.jpg')",
+            'banner': "url('../images/bannerbg.png')",
           },
           // background image end
         colors: {
